@@ -18,6 +18,10 @@ const (
 	TracingSampleRate = "tracing.samplerate"
 	TracingService    = "tracing.service"
 	TracingVersion    = "tracing.version"
+
+	TimescaleConnString = "timescale.conn.string"
+
+	WeatherLinkLiveHost = "weatherlinklive.host"
 )
 
 func NewConfig() (*koanf.Koanf, error) {
